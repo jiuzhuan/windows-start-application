@@ -9,6 +9,6 @@
 `pip install pyinstaller` 或 `pycharm`内`python interpreter`内安装
 
 3. 打包生成可执行文件  
-`pycharm`的`Terminal`内执行`pyinstaller -F -w -i start.ico main.py`命令， 打包生成`.exe`文件， 位置在项目dist文件夹下
+`pycharm`的`Terminal`内执行`pyinstaller -F -w -i rocket.ico start-application.py`命令， 打包生成`.exe`文件， 位置在项目dist文件夹下
    
 4. 双击运行生成的可执行文件
